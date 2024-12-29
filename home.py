@@ -16,5 +16,5 @@ student_dict = {
 
 dataframe = create_dummy_dataframe(student_dict)
 
-st.write(dataframe)
+st.dataframe(dataframe, hide_index=True, use_container_width=True)
 
