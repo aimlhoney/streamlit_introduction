@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 
 CMD ["streamlit", "run", "home.py"]
 
-EXPOSE 8502
+EXPOSE 8501
